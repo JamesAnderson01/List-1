@@ -20,6 +20,8 @@ namespace List_1
             }
             richTextBox1.AppendText("\n================\n");
         }
+
+        
         public Form1()
         {
             InitializeComponent();
@@ -28,7 +30,6 @@ namespace List_1
             nums.Add(5);
             nums.Add(3);
             printNums(nums);
-            richTextBox1.AppendText("\n================\n");
             nums.Remove(3);
             printNums(nums);
             List<int> ints = new List<int>();
