@@ -42,10 +42,16 @@ namespace List_1
             ints.Add(8);
             ints.Add(9);
             ints.Add(10);
-            nums.Remove(1);
+            printNums(ints);
+            ints.Remove(1);
+            ints.Add(1);
             printNums(ints);
 
         }
-        
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
