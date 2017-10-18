@@ -46,6 +46,7 @@ namespace List_1
             ints.Remove(1);
             ints.Add(1);
             printNums(ints);
+            printNums(ints);
 
         }
 
